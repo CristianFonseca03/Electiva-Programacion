@@ -24,6 +24,8 @@ const begin = () => {
   }
   $("#fn1").text(mayor);
   $("#fn2").text(fibonacci_series(mayor)[menor]);
+  console.log(fibonacci_series(mayor));
+
   let perfect_numbers = [];
   for (let i = menor; i < mayor; i++) {
     if (is_perfect(i)) {
